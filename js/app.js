@@ -5,7 +5,7 @@ var Enemy = function(locX,locY) {
 
     // The image/sprite for our enemies, this uses
     // a helper we've provided to easily load images
-    this.sprite = 'C:/Users/KolluruVX/Documents/Git Projects/Frogger/images/enemy-bug.png';
+    this.sprite = '/images/enemy-bug.png';
     this.x = locX;
     this.y = locY;
     this.argument1 = locX;
@@ -51,7 +51,7 @@ Enemy.prototype.render = function() {
 // a handleInput() method.
 
 var Player = function(x,y){
-      this.sprite =  'C:/Users/KolluruVX/Documents/Git Projects/Frogger/images/char-boy.png';
+      this.sprite =  '/images/char-boy.png';
       this.x = x;
       this.y = y;
   };

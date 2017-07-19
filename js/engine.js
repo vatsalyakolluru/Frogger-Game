@@ -108,12 +108,12 @@ var Engine = (function(global) {
          * for that particular row of the game level.
          */
         var rowImages = [
-                'C:/Users/KolluruVX/Documents/Git Projects/Frogger/images/water-block.png',   // Top row is water
-                'C:/Users/KolluruVX/Documents/Git Projects/Frogger/images/stone-block.png',   // Row 1 of 3 of stone
-                'C:/Users/KolluruVX/Documents/Git Projects/Frogger/images/stone-block.png',   // Row 2 of 3 of stone
-                'C:/Users/KolluruVX/Documents/Git Projects/Frogger/images/stone-block.png',   // Row 3 of 3 of stone
-                'C:/Users/KolluruVX/Documents/Git Projects/Frogger/images/grass-block.png',   // Row 1 of 2 of grass
-                'C:/Users/KolluruVX/Documents/Git Projects/Frogger/images/grass-block.png'    // Row 2 of 2 of grass
+                '/images/water-block.png',   // Top row is water
+                '/images/stone-block.png',   // Row 1 of 3 of stone
+                '/images/stone-block.png',   // Row 2 of 3 of stone
+                '/images/stone-block.png',   // Row 3 of 3 of stone
+                '/images/grass-block.png',   // Row 1 of 2 of grass
+                '/images/grass-block.png'    // Row 2 of 2 of grass
             ],
             numRows = 6,
             numCols = 5,
@@ -167,11 +167,11 @@ var Engine = (function(global) {
      * all of these images are properly loaded our game will start.
      */
     Resources.load([
-        'C:/Users/KolluruVX/Documents/Git Projects/Frogger/images/stone-block.png',
-        'C:/Users/KolluruVX/Documents/Git Projects/Frogger/images/water-block.png',
-        'C:/Users/KolluruVX/Documents/Git Projects/Frogger/images/grass-block.png',
-        'C:/Users/KolluruVX/Documents/Git Projects/Frogger/images/enemy-bug.png',
-        'C:/Users/KolluruVX/Documents/Git Projects/Frogger/images/char-boy.png'
+        '/images/stone-block.png',
+        '/images/water-block.png',
+        '/images/grass-block.png',
+        '/images/enemy-bug.png',
+        '/images/char-boy.png'
     ]);
     Resources.onReady(init);
 
