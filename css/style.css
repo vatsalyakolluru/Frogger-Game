@@ -1,3 +1,8 @@
 body {
     text-align: center;
 }
+canvas{
+    padding:0;
+    margin-top:-40px;
+    max-height:600px;
+}
